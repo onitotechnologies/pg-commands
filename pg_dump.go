@@ -15,6 +15,10 @@ var (
 	pgDumpDefaultFormat = "c"
 )
 
+func SetPGDumpCmdVar(pgDumpCmdVar string){
+	PGDumpCmd=pgDumpCmdVar
+}
+
 // Dump is an `Exporter` interface that backs up a Postgres database via the `pg_dump` command.
 type Dump struct {
 	*Postgres
