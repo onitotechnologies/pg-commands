@@ -4,7 +4,7 @@ import (
 	"os"
 	"strconv"
 
-	pg "github.com/habx/pg-commands"
+	pg "github.com/onitotechnologies/pg-commands"
 )
 
 const PostgresPort = 5432

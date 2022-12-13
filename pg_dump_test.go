@@ -7,10 +7,10 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	pg "github.com/habx/pg-commands"
-	"github.com/habx/pg-commands/tests/fixtures"
-	initdatabase "github.com/habx/pg-commands/tests/fixtures/scripts/init-database"
-	deps "github.com/habx/pg-commands/tests/fixtures/scripts/install-deps"
+	pg "github.com/onitotechnologies/pg-commands"
+	"github.com/onitotechnologies/pg-commands/tests/fixtures"
+	initdatabase "github.com/onitotechnologies/pg-commands/tests/fixtures/scripts/init-database"
+	deps "github.com/onitotechnologies/pg-commands/tests/fixtures/scripts/install-deps"
 )
 
 // nolint: gochecknoinits

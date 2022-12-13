@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	pg "github.com/habx/pg-commands"
+	pg "github.com/onitotechnologies/pg-commands"
 )
 
 func main() {
